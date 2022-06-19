@@ -1,0 +1,6 @@
+...
+  "scripts": {
+    "start": "node www/js/server.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+...
