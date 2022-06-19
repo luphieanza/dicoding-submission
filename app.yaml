@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: dicoding-submission/index.html
+  upload: dicoding-submission/index.html
+
+- url: /(.*)
+  static_files: dicoding-submission/\1
+  upload: dicoding-submission/(.*)
