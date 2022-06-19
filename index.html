@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muhammad Rafly Andrianza</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="jumbotron">
+            <h1 class="nama">luphieanza's website</h1>
+            <p class="deskripsi">Selamat datang di website saya, silahkan lihat-lihat.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#techwriter">Technical Writing</a></li>
+                <li><a href="#blogpost">Blogpost</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+
+            <!-- Js Slideshow-start -->
+            <article class="card1">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <a href="#docs-as-code"><img src="assets/image/docslikecode.jpg" class="featured-image"></a>
+                        <div class="text">Docs-as-Code</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <a href="#ddlc"><img src="assets/image/ddlc.jpg" class="featured-image"></a>
+                        <div class="text">DDLC</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <a href="#markdown"><img src="assets/image/markdown.png" class="featured-image"></a>
+                        <div class="text">Markdown</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </article>
+            <!-- Js Slideshow-end -->
+
+            <article id="technicalwriting" class="card">
+                <h2>Technical Writing</h2>
+                <img src="assets/image/techwriter.jpeg" class="featured-image" alt="technicalwriting">
+                <p style="text-align:justify">Technical Writer adalah sebuah posisi pekerjaan dimana orang tersebut
+                    berfokus untuk membangun
+                    terhadap dokumentasi teknis yang ada di perusahaan nya, berbagai macam jenis dokumentasi dikerjakan
+                    oleh Technical Writer, misalnya FSD atau TRD dimana
+                    dokumentasi ini penting untuk memenuhi requirement yang dibutuhkan oleh tim teknis sebelum melakukan
+                    pengembangan produk.</p>
+
+                <p style="text-align:justify">Saya sendiri memulai karir saya sebagai Technical Writer 3 tahun yang lalu
+                    pada tahun 2019, bekerja
+                    dibeberapa macam perusahaan mulai dari level startup, corporate, hingga organisasi open source.
+                    Technical Writer merupakan karir dengan prospek yang lumayan baik di masa depan karena saat ini
+                    pertumbuhan dunia technical writing serta penerapan dokumentasi di beberapa perusahaan besar yang
+                    mempercayai dokumentasi dengan posisi ini.
+                </p>
+            </article>
+
+            <article id="blogpost" class="card">
+                <h2>Blogpost</h2>
+                <p style="text-align:justify">Bagian ini terdapat beberapa blogposts yang mungkin kalian sukai dan
+                    sesuai, bacalah bila sempat.</p>
+                <img src="assets/image/blogpost.jpg" class="featured-image" alt="blogpost">
+                <p style="text-align:justify"><b id="docs-as-code">Blogpost 1: Docs-as-Code approach</b>, Pendekatan
+                    docs-as-code (atau
+                    terkadang docs-like-code) berarti Kamu membuat dan memelihara dokumentasi sama ketatnya dengan kode
+                    pemrograman Kamu. Penulis teknis dapat menjadi anggota tim tangkas, sehingga mereka bekerja dalam
+                    sprint, dan mereka menggunakan IDE dan alur kerja yang sama (atau serupa) sebagai pengembang.</p>
+                <p style="text-align:justify"><b id="ddlc">Blogpost 2: Document Development Life Cycle</b>, adalah
+                    proses sistematis pembuatan dokumen yang memiliki urutan siklus. Penulis teknis dan pengembang
+                    konten perlu mengetahui DDLC karena memungkinkan untuk meningkatkan kualitas dokumentasi,
+                    ketepatannya, dan waktu pengiriman.</p>
+                <p style="text-align:justify"><b id="markdown">Blogpost 3: Markdown, senjata perang technical writer
+                        masa kini</b>, Markdown dibuat oleh John Gruber pada tahun 2004 untuk memungkinkan orang
+                    "menulis menggunakan format teks biasa yang mudah dibaca dan ditulis, secara opsional mengubahnya
+                    menjadi XHTML (atau HTML) yang valid secara struktural". Jadi, Markdown adalah bahasa markup yang
+                    ringan menggunakan sintaks pemformatan teks biasa.
+                    Markdown tidak semudah Microsoft Word, di mana Kita cukup mengklik tombol untuk memformat
+                    kata dan teks secara umum. Markdown seperti HTML — Kamu perlu menunjukkan kata dan frasa mana
+                    yang terlihat berbeda, tetapi Markdown lebih mudah daripada HTML. Misalnya, untuk membuat
+                    paragraf, gunakan baris kosong untuk memisahkan satu atau beberapa baris teks. Kamu tidak boleh
+                    membuat indentasi paragraf dengan spasi atau tab.</p>
+            </article>
+
+            <article id="portofolio" class="card">
+                <h2>Portofolio</h2>
+                <p style="text-align:justify">Mari dilihat penjelasan dan kontribusi saya terhadap beberapa portofolio
+                    dibawah ini.</p>
+                <section>
+                    <h3>Open Source Portofolio</h3>
+                    <img src="assets/image/opensource.jpeg" class="featured-image" alt="farm house">
+                    <p style="text-align:justify"><b>Ansible Docs Contributor (2022)</b>,
+                        Tujuan dari kesempatan ini adalah untuk memberikan pengalaman kepada technical writer yang
+                        terlibat dalam dokumentasi open source project dan aktivitas di github yang dapat kita bagikan
+                        dengan calon pemberi kerja. Dan dalam prosesnya, Ansible mendapatkan beberapa peningkatan
+                        Dokumen.</p>
+                    <p style="text-align:justify"><b>AsyncAPI (2022)</b>,
+                        AsyncAPI merupakan paltform open source yang berfokus terhadap implementasi event-driven API,
+                        Technical Writer berfokus untuk mengerjakan beberapa issue yang ada di website hingga generator
+                    </p>
+                    <p style="text-align:justify"><b>The Mifos Initiative (2020)</b>,
+                        Merupakan NGO yang berfokus terhadap financial service technology, disini saya sebagai konsultan
+                        juga dan memberikan beberapa masukan-masukan yang baik untuk dokumentasi, juga berpartisipasi
+                        terhadap Google Season of Docs 2021</p>
+                </section>
+
+                <section>
+                    <h3>Private Source Portofolio</h3>
+                    <img src="assets/image/closesource.png" class="featured-image" alt="bosscha">
+                    <p style="text-align:justify">Teruntuk recruiter yang ingin melihat lebih lengkap lagi terkait
+                        portofolio yang saya miliki, silahkan kontak saya melalui email di luphieanza@gmail.com.</p>
+                </section>
+            </article>
+            <article class="card">
+                <img src="assets/image/backgroundtw.jpg" class="featured-image" alt="technicalbackground">
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Profil Saya</h2>
+                    <h1>Muhammad Rafly Andrianza</h1>
+                    <figure>
+                        <img src="assets/image/foto-profil.jpg">
+                        <figcaption>Foto Profil</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3 class="biodata">Biodata Diri</h3>
+                    <table align="center">
+                        <tr>
+                            <th>TTL</th>
+                            <td>Jakarta, 2 Agustus 2001</td>
+                        </tr>
+                        <tr>
+                            <th>Jenis kelamin</th>
+                            <td>Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <th>Pendidikan terakhir</th>
+                            <td>Sekolah Menengah Kejuruan</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan saat ini</th>
+                            <td>Senior Technical Writer</td>
+                        </tr>
+                        <tr>
+                            <th>Kewarganegaraan</th>
+                            <td>Indonesia</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Dicoding Submission &copy; 2022, Muhammad Rafly Andrianza</p>
+    </footer>
+
+    <script src="assets/styles/index.js"></script>
+
+</body>
+
+</html>

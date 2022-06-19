@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+h2,
+h3 {
+    color: #364F6B
+}
+
+.nama {
+    color: #F5F5F5;
+    font-weight: 600;
+}
+
+.deskripsi {
+    color: #F5F5F5;
+    font-weight: 500;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    z-index: 999;
+}
+
+nav a:hover {
+    font-weight: bold;
+    z-index: 999;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #FC5185;
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-image {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 25%;
+    border-style: double;
+    border-color: #364F6B;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #3FC1C9;
+    text-align: center;
+    columns: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 20px;
+    z-index: 999;
+}
+
+nav {
+    background-color: #FC5185;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#content {
+    float: left;
+    width: 65%;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+header {
+    display: inline;
+}
+
+.biodata {
+    text-align: center;
+}
+
+li a {
+    font-weight: bold;
+}
+
+/* Js Slideshow */
+
+* {
+    box-sizing: border-box
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #3FC1C9;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #000000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
